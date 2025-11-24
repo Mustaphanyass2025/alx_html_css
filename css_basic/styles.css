@@ -1,6 +1,16 @@
+:root {
+    --primary: #1E3A8A;
+    --secondary: #F59E0B;
+    --bg: #F3F4F6;
+    --text: #111827;
+    --accent: #10B981;
+}
+
+
 body {
     display: flex;
     flex-direction: column;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 main {
@@ -17,4 +27,13 @@ article {
 aside {
     flex: 1;
     overflow-y: auto;
+}
+
+.tweet-link {
+    color: var(--primary);
+    text-decoration: underline;
+}
+
+.tweet-link:hover {
+    color: aqua;
 }
